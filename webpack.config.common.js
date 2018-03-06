@@ -29,9 +29,16 @@ module: {
           loader: 'babel-loader',
           options: {
             presets: [
-              'es2015',
-              'react',
+              "react", [
+                "es2015", {
+                  "modules": false
+                }
+              ]
             ],
+            "plugins": [
+              "transform-decorators-legacy",
+              "transform-class-properties"
+            ]
           },
         },
         exclude: /node_modules/,
@@ -42,9 +49,16 @@ module: {
           loader: 'babel-loader',
           options: {
             presets: [
-              'es2015',
-              'react',
+              "react", [
+                "es2015", {
+                  "modules": false
+                }
+              ]
             ],
+            "plugins": [
+              "transform-decorators-legacy",
+              "transform-class-properties"
+            ]
           },
         },
         exclude: /node_modules/,

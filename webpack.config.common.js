@@ -4,7 +4,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
   entry: {
     popup: './src/popup/index.js',
-    content: './src/content/index.js'
+    content: './src/content/index.js',
+    chrome: './src/chrome/index.js'
   },
 plugins: [
     new CleanWebpackPlugin(['popup']),

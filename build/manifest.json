@@ -8,6 +8,7 @@
       "default_title": "React Ext"
     },
     "background": {
+      "scripts": ["chrome.js"]
     },
     "content_scripts": [
       {

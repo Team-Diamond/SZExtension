@@ -5,4 +5,4 @@ chrome.webRequest.onBeforeRequest.addListener(
         };
     },
     {urls: ["<all_urls>"]},
-    ["requestHeaders"]);
+    ["requestBody"]);

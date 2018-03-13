@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Container from './components/container';
+import $ from 'jquery';
 
 const anchor = document.createElement('div');
 anchor.id = 'container-anchor';
@@ -32,6 +33,7 @@ function parse(link) {
 
     request.open("GET", url, true);
     request.send();
+    $('h1').click(alert('yes'));
 
     let getElements = function (response) {
         console.log(response.parse.text);

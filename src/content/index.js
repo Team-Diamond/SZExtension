@@ -208,19 +208,25 @@ function parseParagraph(p) {
   if (anchorList.length > 0) {
     anchorList.map(a => {
       if (a.parentElement === p) {
-        paraJson["children"].push(a.previousSibling.innerText);
+        if (a.parentElement.previousSibling) {
+            paraJson["children"].push(a.parentElement.previousSibling.innerText);
+        }
         paraJson["children"].push(parseAnchor(a));
       }
       else {
         if (a.parentElement.className != "reference") {
-          paraJson["children"].push(a.parentElement.previousSibling.innerText);
+          if (a.parentElement.previousSibling) {
+            paraJson["children"].push(a.parentElement.previousSibling.innerText);
+          }
           paraJson["children"].push(parseAnchor(a));
         }
       }
     });
 
     if (anchorList[anchorList.length - 1].nextSibling) {
-      paraJson["children"].push(anchorList[anchorList.length - 1].nextSibling);
+      if (anchorList[anchorList.length - 1].nextSibling) {
+        paraJson["children"].push(anchorList[anchorList.length - 1].nextSibling.innerText);
+      }
     }
   }
   else {

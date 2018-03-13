@@ -29,8 +29,7 @@ export default class Container extends Component {
     }
 
   render() {
-    let json = root.mainJson ? root.mainJson : staticJson;
-    console.log("Json", json);
+    let json = staticJson;
 
     return (
       <div className="container">

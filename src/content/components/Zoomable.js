@@ -13,6 +13,7 @@ import React from 'react';
  * @returns {style} - an object containing style names and values that can be passed to a JSX element
  */
 export function zoomStyle(className, views, depth, zoom, ref=null){
+
 	var zoomLayer = Math.floor(zoom);
 	var zoomLayerPosition = zoom - zoomLayer;
 	var viewLevel = zoomLayer - depth;
@@ -86,7 +87,7 @@ export function createZoomedElement(element, views, depth, zoom){
 	var style = className ? zoomStyle(className, views, depth, zoom): null;
 	//console.log(style);
 	var key = eleKeyIndex++;
-
+  
 	return (
 		<TagName className={className} style={style} {...attributes} key={key}>
 			{children && ( typeof children === "string" ? children : children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) ) )}

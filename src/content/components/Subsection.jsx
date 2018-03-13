@@ -73,6 +73,7 @@ export class Subsection extends React.Component{
 	}
 
 	render(){
+    console.log("start render subsections")
 		console.log(this.props.content);
 		const content = this.props.content;
 		const depth = this.props.depth
@@ -81,6 +82,7 @@ export class Subsection extends React.Component{
 		console.log("Creating Subsection: " + title);
 		const outlineNumber = content.outline_number;
 		const thisLevelHTML = content.content_HTML;
+    console.log("outline", content.outline_number);
 
 		const sectionContent = thisLevelHTML.map(function(element){
 			return createZoomedElement(element, views, depth, zoom);
@@ -107,9 +109,12 @@ export class Subsection extends React.Component{
 					>	
 						{sectionContent}
 					</div>
-					<div className="subsection-container" style={zoomStyle("subsection-container", views, depth, zoom)}>
+         { subsections && subsections.length > 0 ?
+					 <div className="subsection-container" style={zoomStyle("subsection-container", views, depth, zoom)}>
 						{subsections}
-					</div>
+					 </div> :
+           <div></div>
+         }
 				</div>
 			</div>
 		);

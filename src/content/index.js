@@ -121,10 +121,10 @@ function parsePageJson(htmlEl, title) {
 
   if (sections.length > 0) {
     for (let i = 0; i < sections.length - 1; i++) {
-      pageJson["subsections"].push(parseSections(sections[i], sections[i+1], 2));
+      pageJson["subsections"].push(parseSections(sections[i], sections[i+1], 2, null, i+1));
     }
 
-    pageJson["subsections"].push(parseLastSection(sections[sections.length - 1], 2));
+    pageJson["subsections"].push(parseLastSection(sections[sections.length - 1], 2, null, sections.length));
   }
 
   return pageJson;
@@ -135,7 +135,7 @@ function parseMainContent(startEl, endEl) {
 
 }
 
-function parseSections(startEl, endEl, level) {
+function parseSections(startEl, endEl, level, numPrefix, num) {
   let sectionJson = {};
   level++;
   let subSections = getSectionElementsByType(startEl, endEl, "h"+level);
@@ -143,6 +143,7 @@ function parseSections(startEl, endEl, level) {
   sectionJson["title"] = startEl.firstChild.innerText;
   sectionJson["content_HTML"] = [];
   sectionJson["subsections"] = [];
+  sectionJson["outline_number"] = numPrefix ? (numPrefix + '.' + num) : num;
 
   if (subSections.length > 0) {
     let paraList = getSectionElementsByType(startEl, subSections[0], "p");
@@ -151,10 +152,10 @@ function parseSections(startEl, endEl, level) {
       sectionJson["content_HTML"].push(parseParagraph(p));
     });
     for (let i = 0; i < subSections.length - 1; i++) {
-      sectionJson["subsections"].push(parseSections(subSections[i], subSections[i+1], level));
+      sectionJson["subsections"].push(parseSections(subSections[i], subSections[i+1], level, sectionJson["outline_number"], i + 1));
     }
 
-    sectionJson["subsections"].push(parseSections(subSections[subSections.length - 1], endEl, level));
+    sectionJson["subsections"].push(parseSections(subSections[subSections.length - 1], endEl, level, sectionJson["outline_number"], subSections.length));
   }
   else {
     let paraList = getSectionElementsByType(startEl, endEl, "p");

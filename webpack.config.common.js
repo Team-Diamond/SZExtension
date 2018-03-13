@@ -19,7 +19,7 @@ plugins: [
       title: 'Minimum-Viable',
       filename: 'content.html',
       template: './public/content.html',
-    }),
+    })
   ],
 module: {
     rules: [

@@ -34,6 +34,8 @@ export class Article extends React.Component{
 		const subsections = content.subsections.map(function(subsection, i){
 			return <Subsection content={subsection} depth={depth+1} zoom={zoom} key={"section_" + subsection.outline_number}/>;
 		});
+
+    console.log("subsections", subsections);
 		
 		return (
 			<div className="article-container" style={zoomStyle("article-container", views, depth, zoom)}>
@@ -41,9 +43,13 @@ export class Article extends React.Component{
 				<div className="section-content" ref={(div) => {this.sectionContent = div; }} style={zoomStyle("section-content", views, 1, zoom, this.sectionContent)}>
 					{sectionContent}
 				</div>
-				<div className="subsection-container" style={zoomStyle("subsection-container", views, depth, zoom)}>
-					{subsections}
-				</div>
+        { 
+          subsections && subsections.length > 0 ?
+				  <div className="subsection-container" style={zoomStyle("subsection-container", views, depth, zoom)}>
+					 {subsections}
+				  </div> 
+          : <div></div> 
+        }
 			</div>
 		);
 	}

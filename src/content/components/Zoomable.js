@@ -27,7 +27,7 @@ export function zoomStyle(className, views, depth, zoom, ref=null){
 
 	if(elementStyle){
 		//Loop through every level of depth down to the current view level, starting from 0
-		console.log("Style found for class: " + elementStyle.className + ", viewLevel: " + viewLevel + ", zoomLayer: " + zoomLayer + ", depth: " + depth + ", zoomDirection: " + zoomDirection);
+		//console.log("Style found for class: " + elementStyle.className + ", viewLevel: " + viewLevel + ", zoomLayer: " + zoomLayer + ", depth: " + depth + ", zoomDirection: " + zoomDirection);
 		for(var i = 0; i != viewLevel + zoomDirection; i += zoomDirection ) {
 			var elementZoomStyle = elementStyle.levels.find((v) => v.view == i)
 			if(elementZoomStyle){
@@ -57,7 +57,6 @@ export function zoomStyle(className, views, depth, zoom, ref=null){
 				style[name] = value;
 			}
 		}
-		console.log(style);
 		return style;
 	} else{
 		return null;
@@ -88,7 +87,20 @@ export function createZoomedElement(element, views, depth, zoom){
 	var style = className ? zoomStyle(className, views, depth, zoom): null;
 	var key = eleKeyIndex++;
 
-	var childElems = children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) );
+	var childElems;
+	switch (typeof children){
+		case "string":
+			childElems = children;
+			break;
+		case "object":
+			if(children.constructor === Array){
+				childElems = children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) );
+			}
+			break;
+		default:
+			childElems = null;
+			break
+	}
 
 	return (
 		<TagName className={className} style={style} {...attributes} key={key}>

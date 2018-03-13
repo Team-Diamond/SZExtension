@@ -36,11 +36,8 @@ export default class Container extends Component {
 
     return (
       <div className="container">
-        <div>
-            <Article content={json} zoom={this.state.zoom} />
+          <Article content={json} zoom={this.state.zoom} />
         	<ZoomBar zoom={this.state.zoom} onZoomChange={this.setZoom}/>
-        </div>
-
       </div>
     )
   }

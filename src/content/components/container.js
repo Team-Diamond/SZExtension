@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { root } from '../models/root';
 import * as MobX from 'mobx-react';
 const observer = MobX.observer;
+import mobx from 'mobx'
 
 import {Article} from './Article.jsx';
 import {ZoomBar} from './Zoombar.jsx'
@@ -29,7 +30,9 @@ export default class Container extends Component {
     }
 
   render() {
-    let json = root.mainJson ? root.mainJson : staticJson;
+    let json = root.mainJson ? mobx.toJS(root.mainJson) : staticJson;
+
+    console.log("render JSON", json);
 
     return (
       <div className="container">

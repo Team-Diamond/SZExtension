@@ -6,6 +6,8 @@ const observer = MobX.observer;
 import {Article} from './Article.jsx';
 import {ZoomBar} from './Zoombar.jsx'
 
+import style from '../style.css';
+
 var json = require('../ExampleWebpage.json');
 
 
@@ -30,12 +32,10 @@ export default class Container extends Component {
 
   	const attributes = {
         src: "https://en.wikipedia.org/wiki/French_Revolution",
-        stylesheet: "../style.css"
     };
 
     return (
-      <div className="cards-container">
-      	<link rel="stylesheet" type="text/css" href={attributes.stylesheet} />
+      <div className="container">
         <h1>{root.n}</h1>
         <button type="button" onClick={root.addOne.bind(root)}>Click Me!</button>
         <div>

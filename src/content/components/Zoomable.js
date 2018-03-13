@@ -18,7 +18,7 @@ export function zoomStyle(className, views, depth, zoom, ref=null){
 	var viewLevel = zoomLayer - depth;
 	var zoomDirection = Math.sign(viewLevel) || 1;
 
-	var classNames = className.split(" ").filter((x) => x);
+	var  classNames = className.split(" ").filter((x) => x);
 	var style = {};
 
 	//Find the set of rules for styling this element by className
@@ -78,17 +78,18 @@ export function zoomStyle(className, views, depth, zoom, ref=null){
 var eleKeyIndex = 0;
 
 export function createZoomedElement(element, views, depth, zoom){
+	console.log(element);
 	var TagName = element.tagName;
-	var className = element.className;
-	var attributes = element.attributes;
+	var className = element.className || null;
+	var attributes = element.attributes; 
 	var children = element.children;
-	var style = zoomStyle(className, views, zoom);
+	var style = className ? zoomStyle(className, views, depth, zoom): null;
 	//console.log(style);
 	var key = eleKeyIndex++;
 
 	return (
 		<TagName className={className} style={style} {...attributes} key={key}>
-			{children && children.map((e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom))}
+			{children && ( typeof children === "string" ? children : children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) ) )}
 		</TagName>
 	);
 }

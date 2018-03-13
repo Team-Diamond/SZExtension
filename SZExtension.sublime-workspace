@@ -1,0 +1,1194 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"old",
+				"oldImgHeight"
+			],
+			[
+				"width",
+				"widthHeightRatio"
+			],
+			[
+				"webst",
+				"webstrateId"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"colli",
+				"collisionDetected"
+			],
+			[
+				"quick",
+				"quickAddDist"
+			],
+			[
+				"check",
+				"checkIntersectionWithNodes"
+			],
+			[
+				"quickAdd",
+				"quickAddDist"
+			],
+			[
+				"default",
+				"defaultRadius"
+			],
+			[
+				"quickAd",
+				"quickAddY"
+			],
+			[
+				"overf",
+				"overflow-y"
+			],
+			[
+				"input",
+				"inputNode"
+			],
+			[
+				"pla",
+				"placeholderText"
+			],
+			[
+				"selectNode",
+				"selectNode"
+			],
+			[
+				"up",
+				"up"
+			],
+			[
+				"select",
+				"selectNodeByDirection"
+			],
+			[
+				"angle",
+				"angleOffset"
+			],
+			[
+				"group",
+				"grouped_nodes"
+			],
+			[
+				"deselec",
+				"deselectAllObjects"
+			],
+			[
+				"source",
+				"source_node"
+			],
+			[
+				"src",
+				"linkSrcNode"
+			],
+			[
+				"clickeven",
+				"singleClickEvent"
+			],
+			[
+				"node",
+				"nodeId"
+			],
+			[
+				"place",
+				"placeholder-text"
+			],
+			[
+				"create",
+				"createLabelFromInput"
+			],
+			[
+				"quickA",
+				"quickAddX"
+			],
+			[
+				"remove",
+				"removeNode"
+			],
+			[
+				"selede",
+				"selectedObjects"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"alig",
+				"vertical-align"
+			],
+			[
+				"te",
+				"text-top"
+			],
+			[
+				"tex",
+				"text-before-edge"
+			],
+			[
+				"align",
+				"alignment-baseline"
+			],
+			[
+				"base",
+				"alignment-baseline"
+			],
+			[
+				"link",
+				"link-rep"
+			],
+			[
+				"defaul",
+				"defaultRadius"
+			],
+			[
+				"defa",
+				"defaultShape"
+			],
+			[
+				"addNode",
+				"addNodeToGroup"
+			],
+			[
+				"doubl",
+				"doubleClickDragTimer"
+			],
+			[
+				"sing",
+				"singleClickTimer"
+			],
+			[
+				"doub",
+				"doubleClickDragTimer"
+			],
+			[
+				"dragg",
+				"dragged_object"
+			],
+			[
+				"mous",
+				"mouseMoved"
+			],
+			[
+				"new",
+				"new_children_ids"
+			],
+			[
+				"node_",
+				"node_id"
+			],
+			[
+				"selection",
+				"selection_area"
+			],
+			[
+				"drag",
+				"drag_offset"
+			],
+			[
+				"selectio",
+				"selection_area"
+			],
+			[
+				"inser",
+				"insert"
+			],
+			[
+				"creat",
+				"createGroup"
+			],
+			[
+				"draw",
+				"drawSelectionArea"
+			],
+			[
+				"translat",
+				"translateNode"
+			],
+			[
+				"transla",
+				"translateG"
+			],
+			[
+				"grou",
+				"grouped_nodes"
+			],
+			[
+				"dragged",
+				"dragged_node"
+			],
+			[
+				"click",
+				"clickSizeModifier"
+			],
+			[
+				"json",
+				"json_antibiogram_table"
+			],
+			[
+				"ranked_",
+				"ranked_antibiogram_table"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/content/index.js",
+			"settings":
+			{
+				"buffer_size": 6763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/chrome/index.js",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/popup.html",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/components/App.jsx",
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/components/Article.jsx",
+			"settings":
+			{
+				"buffer_size": 1554,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/components/container.js",
+			"settings":
+			{
+				"buffer_size": 1109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1136,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/components/Zoomable.js",
+			"settings":
+			{
+				"buffer_size": 3703,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/components/parser.js",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/style.css",
+			"settings":
+			{
+				"buffer_size": 1240,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.common.js",
+			"settings":
+			{
+				"buffer_size": 1816,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/components/Subsection.jsx",
+			"settings":
+			{
+				"buffer_size": 3075,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/content/models/root.js",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/popup/index.js",
+			"settings":
+			{
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 587.0
+	},
+	"console":
+	{
+		"height": 159.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/public",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/models"
+	],
+	"file_history":
+	[
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/package.json",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/public/content.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/styles/main.css",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/default-style.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/style.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/entity/constant.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/label.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/pinning.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/selections.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/init.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/main.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/index.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/documents/pinning.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/styles/circle.css",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/documents/style-merging2.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/package.json",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/documents/style-merging.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/data.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/layout.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/draw.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/documents/teamIsaacIteration4.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/README.md",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/example/index.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/documents/StrateComposerTest.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/file-system/index.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/ConceptMap/index.html",
+		"/G/My Drive/HCHD_My_Stuff/__MACOSX/a5huynh-bugs-n-drugs-a9c68c9ec167/._README.md",
+		"/C/Users/Isaac Fehr/Documents/Webstrates test/file-system/documents/isaac_d3.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates test/file-system/index.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates test/file-system/README.md",
+		"/C/Users/Isaac Fehr/Documents/Webstrates test/file-system/documents/object.json",
+		"/C/Users/Isaac Fehr/Documents/Webstrates_test/file-system/documents/test.html",
+		"/C/Users/Isaac Fehr/Desktop/test.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates_test/file-system/documents/file-system-test.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates_test/file-system/documents/isaac.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates_test/file-system/index.js",
+		"/C/Users/Isaac Fehr/Documents/Webstrates_test/file-system/README.md",
+		"/C/Users/Isaac Fehr/Documents/Webstrates_test/file-system/documents/object.json",
+		"/G/My Drive/COGS 187A/Portfolio/Isaac Fehr Portfolio/index.html",
+		"/C/Users/Isaac Fehr/Documents/Webstrates/package.json",
+		"/C/Users/Isaac Fehr/Documents/Webstrates/README.md",
+		"/C/Users/Isaac Fehr/Documents/Webstrates/config.json",
+		"/C/Program Files/Webstrates/config-sample.json",
+		"/C/Program Files (x86)/Steam/steamapps/common/dota 2 beta/game/dota/cfg/autoexec.cfg",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/app.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/public/css/bubbles.css",
+		"/E/autorun.inf",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/index.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/routes/index.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/data.json",
+		"/C/Users/Isaac Fehr/Google Drive/COGS109/COGS 109 Group Folder/data/sugar_consumption.csv",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/public/js/bubblesb.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/public/css/bubblesb.css",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/index2.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/public/js/bubbles.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/newtopic.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/registration.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/settings.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/tutorial.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/login.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/views/submitted.handlebars",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/routes/newtopic.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/package.json",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/node_modules/express/node_modules/send/node_modules/.bin/mime",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/node-mongodb-native-2.2.11/index.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/routes/project.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/app.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/Procfile",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/.gitignore",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/node_modules/express/package.json",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/node_modules/express/Readme.md",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/server.js",
+		"/C/Users/Isaac Fehr/Documents/whatsupucsd/static/css/bubbles.css",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/routes/index.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/views/index.html",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/app.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/routes/home.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab5/routes/index.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/server.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/static/index.html",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/static/js/react_test.js",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/templates/react_test.html",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/views/index.handlebars",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/index.html",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/Procfile",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/COGS 120 Team Folder/whatsupucsd/README.md",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/README.md",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/Procfile",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/__init__.py",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/templates/index.html",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-tutorial-master/public/index.html",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-tutorial-master/public/scripts/tutorial2.js",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-tutorial-master/public/scripts/tutorial3.js",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-tutorial-master/public/scripts/tutorial1.js",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-tutorial-master/public/scripts/tutorial4.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/routes/index.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/views/project.handlebars",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/README.md",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/run_server.py",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/hello/routes/hello.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab4/hello/views/index.handlebars",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-tutorial-master/public/scripts/example.js",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-15.3.2/src/helloworld.js",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-15.3.2/helloworld.html",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/React JS Test/react-15.3.2/README.md",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab3/static/index.html",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab3/static/js/introHCI.js",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab3/static/css/introHCI.css",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/settings.py",
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/db.py",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/static/css/introHCI.css",
+		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/static/index.html"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"map",
+			"s.map",
+			"getNodeP",
+			"initdrag",
+			"doubleClickEvent",
+			"container",
+			"SELECTnODE",
+			"SingleClickEvent",
+			"removeNode",
+			"singleClickevent",
+			"doubleClickEvent",
+			"selectDraggedObject",
+			"moveGroup",
+			"clientId",
+			"translateNode",
+			"quickAdd",
+			"MAX_RADIUS",
+			"quickAdd",
+			"drawNode",
+			"quickAddDist",
+			"defaultRadius",
+			"drawNode",
+			"quickAddDist",
+			"defaultradius",
+			"singleClickEven",
+			"quickAdd",
+			"quickAddX",
+			"quickAddDist",
+			"quickAddX",
+			"addLabel",
+			"input",
+			"setTimeOut",
+			"editId",
+			"singleClickEvent",
+			"doubleClickEvent",
+			"addLabel",
+			"keyDownL",
+			"singleClickEvent",
+			"doubleClickEven",
+			"textNode",
+			"singleClickEvent",
+			"mouseupL",
+			"selectdrag",
+			"selectNode",
+			"singleClickEvent",
+			"doubleClickEvent",
+			"let Node",
+			"selectsrc",
+			"mouseDownList",
+			"mousedownlist",
+			"singleClickEvent",
+			"selectDraggedObject",
+			"KEYdOWNlISTEN",
+			"KEYdOWN",
+			"mousedownL",
+			"mousedown",
+			"singleClickEv",
+			"singleclickev",
+			"singleclickeve",
+			"singleclickev",
+			"singleclick",
+			"scalenode",
+			"createLabel",
+			"temp_label_div",
+			"label-script",
+			"label",
+			"console.log(\"help",
+			"console.log(\"helpEnd",
+			"console.log",
+			"identifier",
+			"addLabel",
+			"&lt",
+			"&lt;",
+			"&gt",
+			"&lt;",
+			"console.log(\"hi",
+			"console.log(\"hi\")",
+			"singleClickTimer",
+			"addNode",
+			"switch",
+			"singleClickEv",
+			"keypress",
+			"keyDownL",
+			"doubleCli",
+			"keypresslistener",
+			"keypressLi",
+			"<<<<<<",
+			"selectNodeByD",
+			"getNodePosition",
+			"keypress",
+			"selectNode",
+			"rightClick",
+			"removeNode",
+			"removeLink",
+			"delete",
+			"removenode",
+			"delete",
+			"rightclicklistener",
+			"delete",
+			"rightclickLis",
+			"singleClickEvent",
+			"selectNo",
+			"doubleClickEvent",
+			"deselectAllObject",
+			"selection_area",
+			"deselectAllOb",
+			"singleClickEvent",
+			"selectNode",
+			"creategroup",
+			"selectNode",
+			"createGroup",
+			"source_node",
+			"mousemovelistener",
+			"mousemovelister",
+			"mousemovelistener",
+			"mouseMoveL",
+			"mouseMove",
+			"doubleClickEvent",
+			"singleClickevent",
+			"SelectNode",
+			"singleClickEvent",
+			"drawDrag",
+			"mouseDown",
+			"mouseDow",
+			"selectNode",
+			"addlabel",
+			"addLabel",
+			"addlabel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<",
+			">",
+			"=>",
+			"&",
+			"&&",
+			">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/content/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/chrome/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/popup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/content/components/App.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/content/components/Article.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1252,
+								1252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/content/components/container.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								864,
+								864
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1056,
+								1056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/content/components/Zoomable.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3416,
+								3416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/content/components/parser.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/content/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "webpack.config.common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1389,
+								1389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/content/components/Subsection.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1259.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/content/models/root.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/popup/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SZExtension.sublime-project",
+	"replace":
+	{
+		"height": 53.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Isaac Fehr\\Documents\\wikipedia-semantic-zooming\\SemanticZooming\\WikipediaSemanticZooming.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 357.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

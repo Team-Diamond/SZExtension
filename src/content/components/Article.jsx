@@ -29,7 +29,7 @@ export class Article extends React.Component{
 		const title = content.title;
 		const thisLevelHTML = content.content_HTML;
 		const sectionContent = thisLevelHTML.map(function(element){
-			return createZoomedElement(element, views, zoom);
+			return createZoomedElement(element, views, depth, zoom);
 		});
 		const subsections = content.subsections.map(function(subsection, i){
 			return <Subsection content={subsection} depth={depth+1} zoom={zoom} key={"section_" + subsection.outline_number}/>;
@@ -41,6 +41,7 @@ export class Article extends React.Component{
 			<div className="article-container" style={zoomStyle("article-container", views, depth, zoom)}>
 				<h1>{title}</h1>
 				<div className="section-content" ref={(div) => {this.sectionContent = div; }} style={zoomStyle("section-content", views, 1, zoom, this.sectionContent)}>
+				{console.log(sectionContent)}
 					{sectionContent}
 				</div>
         { 

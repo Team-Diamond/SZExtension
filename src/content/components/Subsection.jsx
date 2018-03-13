@@ -101,10 +101,10 @@ export class Subsection extends React.Component{
 					style={zoomStyle("section-title", views, depth, zoom)}
 				>{title}</h2>
 				<div className="section-content"  
-					style={zoomStyle("section-content", views, depth, zoom, this.sectionContent)}
+					style={zoomStyle("section-content", views, depth, zoom)}
 				>
 					<div className="section-text" 
-						ref={(div) => {this.sectionText = div; }}
+						ref={(div) => {this.sectionText = div;}}
 						style={zoomStyle("section-text", views, depth, zoom, this.sectionText)}
 					>	
 						{sectionContent}

@@ -20,12 +20,10 @@ function parse(link) {
     const pageTitle = arr[arr.length - 1];
     console.log(pageTitle);
 
-    const url = "https://en.wikipedia.org/w/api.php?action=query&titles=" +
-        pageTitle + "&prop=revisions&rvprop=content&format=json";
-
+    const url = "https://en.wikipedia.org/w/api.php?action=parse&page=" + pageTitle + "&prop=text&format=json";
     let request = new XMLHttpRequest();
 
-    request.onreadystatechange = function() {
+    request.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             let response = JSON.parse(this.responseText);
             getElements(response);
@@ -36,13 +34,13 @@ function parse(link) {
     request.send();
 
     let getElements = function (response) {
-        console.log(response.query.pages);
-        return response.query.pages;
+        console.log(response.parse.text);
+        return parse.text;
     }
 }
 
 function showCard(link) {
-   parse(link);
+    parse(link);
 }
 
 let i = 0, l = hyperlinks.length;

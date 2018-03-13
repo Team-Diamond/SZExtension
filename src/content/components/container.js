@@ -8,7 +8,7 @@ import {ZoomBar} from './Zoombar.jsx'
 
 import style from '../style.css';
 
-var json = require('../ExampleWebpage.json');
+var staticJson = require('../ExampleWebpage.json');
 
 
 @observer
@@ -29,17 +29,15 @@ export default class Container extends Component {
     }
 
   render() {
-
-  	const attributes = {
-        src: "https://en.wikipedia.org/wiki/French_Revolution",
-    };
+    let json = root.mainJson ? root.mainJson : staticJson;
+    console.log("Json", json);
 
     return (
       <div className="container">
         <h1>{root.n}</h1>
         <button type="button" onClick={root.addOne.bind(root)}>Click Me!</button>
         <div>
-            <Article content={json.article} zoom={this.state.zoom} />
+            <Article content={json} zoom={this.state.zoom} />
         	<ZoomBar zoom={this.state.zoom} onZoomChange={this.setZoom}/>
         </div>
 

@@ -17,7 +17,7 @@ export class ZoomBar extends React.Component{
 		if(e.buttons === 1){
 			console.log("mouse down on svg");
 			e.preventDefault();
-			var svg = document.querySelector(".zoom-bar");
+			var svg = this.zoomBar;
 			var svgDim = svg.getBoundingClientRect();
 			var mouseY = e.clientY - svgDim.top - yOffset;
 			var z = ((zoomBarHeight - mouseY) / zoomBarHeight * this.numZoomLayers);
@@ -50,7 +50,7 @@ export class ZoomBar extends React.Component{
 			r={circleRadius} />;
 
 		return(
-			<svg className="zoom-bar" width={zoomBarWidth} height={zoomBarHeight + 2*yOffset} onMouseMove={this.handleChange} onMouseDown={this.handleChange}>
+			<svg className="zoom-bar" width={zoomBarWidth} height={zoomBarHeight + 2*yOffset} onMouseMove={this.handleChange} ref={(svg) => {this.zoomBar = svg;}}>
 				<polygon points={polygonPoints}/>
 				{scaleLines}
 				{sliderCircle}

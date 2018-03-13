@@ -216,7 +216,10 @@ function parseParagraph(p) {
         }
       }
     });
-    paraJson["children"].push(anchorList[anchorList.length - 1].nextSibling);
+
+    if (anchorList[anchorList.length - 1].nextSibling) {
+      paraJson["children"].push(anchorList[anchorList.length - 1].nextSibling);
+    }
   }
   else {
     paraJson["children"].push(p.innerText);

@@ -36,8 +36,6 @@ export default class Container extends Component {
 
     return (
       <div className="container">
-        <h1>{root.n}</h1>
-        <button type="button" onClick={root.addOne.bind(root)}>Click Me!</button>
         <div>
             <Article content={json} zoom={this.state.zoom} />
         	<ZoomBar zoom={this.state.zoom} onZoomChange={this.setZoom}/>

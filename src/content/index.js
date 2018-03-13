@@ -243,6 +243,6 @@ function parseAnchor(a) {
     anchorJson["attributes"][name] = a.getAttribute(name);
   })
 
-  anchorJson["children"] = a.innerText;
+  anchorJson["children"].push(a.innerText);
   return anchorJson;
 }

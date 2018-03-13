@@ -1,7 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Container from './components/container';
-import parser from './components/parser';
 
 const anchor = document.createElement('div');
 anchor.id = 'container-anchor';
@@ -15,32 +14,35 @@ if (module.hot) {
 }
 
 const hyperlinks = document.getElementsByTagName('a');
-//
-// function parse(link) {
-//     const arr = link.split('/');
-//     const pageTitle = arr[arr.length - 1];
-//     console.log(pageTitle);
-//
-//     const url = "https://en.wikipedia.org/w/api.php?action=query&titles=" +
-//         pageTitle + "&prop=revisions&rvprop=content&format=json";
-//
-//     let result;
-//     fetch(url)
-//         .then(response => {
-//             if (response.ok) {
-//                 return response.json();
-//             } else {
-//                 throw new Error('Something went wrong ...');
-//             }
-//         })
-//         .then(data => this.setState({ data, isLoading: false }))
-//         .catch(error => this.setState({ error, isLoading: false }));
-//     alert(result);
-//     return "parsed items: " + items;
-// }
+
+function parse(link) {
+    const arr = link.split('/');
+    const pageTitle = arr[arr.length - 1];
+    console.log(pageTitle);
+
+    const url = "https://en.wikipedia.org/w/api.php?action=query&titles=" +
+        pageTitle + "&prop=revisions&rvprop=content&format=json";
+
+    let request = new XMLHttpRequest();
+
+    request.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+            let response = JSON.parse(this.responseText);
+            getElements(response);
+        }
+    };
+
+    request.open("GET", url, true);
+    request.send();
+
+    let getElements = function (response) {
+        console.log(response.query.pages);
+        return response.query.pages;
+    }
+}
 
 function showCard(link) {
-    parser.parse(link);
+   parse(link);
 }
 
 let i = 0, l = hyperlinks.length;

@@ -79,17 +79,32 @@ var eleKeyIndex = 0;
 
 export function createZoomedElement(element, views, depth, zoom){
 	console.log(element);
+	if( !element || !element.tagName || typeof element.tagName === "undefined" ) return null;
 	var TagName = element.tagName;
 	var className = element.className || null;
 	var attributes = element.attributes; 
 	var children = element.children;
 	var style = className ? zoomStyle(className, views, depth, zoom): null;
-	//console.log(style);
 	var key = eleKeyIndex++;
+
+	var childElems;
+	switch (typeof children){
+		case "string":
+			childElems = children;
+			break;
+		case "object":
+			if(children.constructor === Array){
+				childElems = children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) );
+			}
+			break;
+		default:
+			childElems = null;
+			break
+	}
 
 	return (
 		<TagName className={className} style={style} {...attributes} key={key}>
-			{children && ( typeof children === "string" ? children : children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) ) )}
+			{childElems}
 		</TagName>
 	);
 }

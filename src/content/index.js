@@ -4,6 +4,7 @@ import {root} from './models/root'
 import Container from './components/container';
 import $ from 'jquery';
 
+process.env.NODE_ENV === 'production'
 const anchor = document.createElement('div');
 anchor.id = 'container-anchor';
 

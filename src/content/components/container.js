@@ -29,7 +29,7 @@ export default class Container extends Component {
     }
 
   render() {
-    let json = staticJson;
+    let json = root.mainJson ? root.mainJson : staticJson;
 
     return (
       <div className="container">

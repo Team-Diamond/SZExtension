@@ -87,7 +87,7 @@ export function createZoomedElement(element, views, depth, zoom){
 	var style = className ? zoomStyle(className, views, depth, zoom): null;
 	//console.log(style);
 	var key = eleKeyIndex++;
-  
+
 	return (
 		<TagName className={className} style={style} {...attributes} key={key}>
 			{children && ( typeof children === "string" ? children : children.map( (e) => typeof e === "string" ? e : createZoomedElement(e, views, depth, zoom) ) )}

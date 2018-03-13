@@ -208,15 +208,19 @@ function parseParagraph(p) {
   if (anchorList.length > 0) {
     anchorList.map(a => {
       if (a.parentElement === p) {
-        if (a.parentElement.previousSibling) {
-            paraJson["children"].push(a.parentElement.previousSibling.innerText);
+        if (a.previousSibling) {
+            console.log("previous sibling", a.previousSibling);
+            console.log("previous sibling text", a.previousSibling.textContent)
+            paraJson["children"].push(a.previousSibling.textContent);
         }
         paraJson["children"].push(parseAnchor(a));
       }
       else {
         if (a.parentElement.className != "reference") {
           if (a.parentElement.previousSibling) {
-            paraJson["children"].push(a.parentElement.previousSibling.innerText);
+            console.log("previous sibling", a.parentElement.previousSibling);
+            console.log("previous sibling text", a.parentElement.previousSibling.textContent)
+            paraJson["children"].push(a.parentElement.previousSibling.textContent);
           }
           paraJson["children"].push(parseAnchor(a));
         }
@@ -225,7 +229,7 @@ function parseParagraph(p) {
 
     if (anchorList[anchorList.length - 1].nextSibling) {
       if (anchorList[anchorList.length - 1].nextSibling) {
-        paraJson["children"].push(anchorList[anchorList.length - 1].nextSibling.innerText);
+        paraJson["children"].push(anchorList[anchorList.length - 1].nextSibling.textContent);
       }
     }
   }

@@ -208,12 +208,12 @@ function parseParagraph(p) {
   if (anchorList.length > 0) {
     anchorList.map(a => {
       if (a.parentElement === p) {
-        paraJson["children"].push(a.previousSibling);
+        paraJson["children"].push(a.previousSibling.innerText);
         paraJson["children"].push(parseAnchor(a));
       }
       else {
         if (a.parentElement.className != "reference") {
-          paraJson["children"].push(a.parentElement.previousSibling);
+          paraJson["children"].push(a.parentElement.previousSibling.innerText);
           paraJson["children"].push(parseAnchor(a));
         }
       }

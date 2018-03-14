@@ -148,25 +148,52 @@ function parseSections(startEl, endEl, level, numPrefix, num) {
 
   if (subSections.length > 0) {
     let paraList = getSectionElementsByType(startEl, subSections[0], "p");
+    let imageList = getSectionElementsByType(startEl, subSections[0], "div.thumb");
 
     paraList.map(p => {
       sectionJson["content_HTML"].push(parseParagraph(p));
     });
+
+    imageList.map(t => {
+      sectionJson["content_HTML"].push(parseImage(t));
+    })
+
     for (let i = 0; i < subSections.length - 1; i++) {
-      sectionJson["subsections"].push(parseSections(subSections[i], subSections[i+1], level, sectionJson["outline_number"], i + 1));
+      sectionJson["subsections"].push(
+        parseSections(subSections[i], subSections[i+1], level, sectionJson["outline_number"], i + 1)
+      );
     }
 
-    sectionJson["subsections"].push(parseSections(subSections[subSections.length - 1], endEl, level, sectionJson["outline_number"], subSections.length));
+    sectionJson["subsections"].push(
+      parseSections(subSections[subSections.length - 1], endEl, level, sectionJson["outline_number"], subSections.length)
+    );
   }
   else {
     let paraList = getSectionElementsByType(startEl, endEl, "p");
+    let imageList = getSectionElementsByType(startEl, endEl, "div.thumb");
 
     paraList.map(p => {
       sectionJson["content_HTML"].push(parseParagraph(p));
+    });
+
+    imageList.map(t => {
+      sectionJson["content_HTML"].push(parseImage(t));
     });
   }
 
   return sectionJson;
+}
+
+function parseImage(thumb) {
+  let imgJson = {};
+
+  imgJson["tagName"] = "img";
+  imgJson["className"] = "image";
+  imgJson["attributes"] = [];
+  imgJson["children"] = [];
+
+  imgJson["attributes"].push({"src": "https:"thumb.getElementsByTagName("img")[0].getAttribute("src")});
+  return imgJson;
 }
 
 function parseLastSection(el, level) {

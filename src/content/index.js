@@ -150,13 +150,13 @@ function parseSections(startEl, endEl, level, numPrefix, num) {
     let paraList = getSectionElementsByType(startEl, subSections[0], "p");
     let imageList = getSectionElementsByType(startEl, subSections[0], "div.thumb");
 
-    paraList.map(p => {
-      sectionJson["content_HTML"].push(parseParagraph(p));
-    });
-
     imageList.map(t => {
       sectionJson["content_HTML"].push(parseImage(t));
     })
+
+    paraList.map(p => {
+      sectionJson["content_HTML"].push(parseParagraph(p));
+    });
 
     for (let i = 0; i < subSections.length - 1; i++) {
       sectionJson["subsections"].push(
@@ -172,12 +172,12 @@ function parseSections(startEl, endEl, level, numPrefix, num) {
     let paraList = getSectionElementsByType(startEl, endEl, "p");
     let imageList = getSectionElementsByType(startEl, endEl, "div.thumb");
 
-    paraList.map(p => {
-      sectionJson["content_HTML"].push(parseParagraph(p));
-    });
-
     imageList.map(t => {
       sectionJson["content_HTML"].push(parseImage(t));
+    });
+    
+    paraList.map(p => {
+      sectionJson["content_HTML"].push(parseParagraph(p));
     });
   }
 

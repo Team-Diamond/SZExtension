@@ -190,7 +190,6 @@ function parseImage(thumb) {
   imgJson["tagName"] = "img";
   imgJson["className"] = "image";
   imgJson["attributes"] = [];
-  imgJson["children"] = [];
 
   imgJson["attributes"].push({"src": "https:" + thumb.getElementsByTagName("img")[0].getAttribute("src")});
   return imgJson;

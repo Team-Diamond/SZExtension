@@ -192,7 +192,7 @@ function parseImage(thumb) {
   imgJson["attributes"] = [];
   imgJson["children"] = [];
 
-  imgJson["attributes"].push({"src": "https:"thumb.getElementsByTagName("img")[0].getAttribute("src")});
+  imgJson["attributes"].push({"src": "https:" + thumb.getElementsByTagName("img")[0].getAttribute("src")});
   return imgJson;
 }
 

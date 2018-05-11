@@ -42,7 +42,7 @@ export function zoomStyle(className, views, depth, zoom, ref=null){
 				let value;
 				if(attr.value){ //If there is a specified value, use that
 					if(attr.value === "scrollHeight" && ref){
-						console.log("setting value to scrollHeight");
+						//console.log("setting value to scrollHeight");
 						value = ref.scrollHeight;
 					} else{
 						value = attr.value;
@@ -78,7 +78,7 @@ export function zoomStyle(className, views, depth, zoom, ref=null){
 var eleKeyIndex = 0;
 
 export function createZoomedElement(element, views, depth, zoom){
-	console.log(element);
+	//console.log("Creating Zoomed Element:", element);
 	if( !element || !element.tagName || typeof element.tagName === "undefined" ) return null;
 	var TagName = element.tagName;
 	var className = element.className || null;

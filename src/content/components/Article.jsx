@@ -1,6 +1,8 @@
 import React from 'react';
 import {zoomStyle, createZoomedElement} from './Zoomable.js';
+import {addPanEventListenerToArticle} from '../listeners/zoom_events.js'
 import {Subsection} from './Subsection.jsx';
+import {addZoomEventListeners, handleZoomEvent} from '../listeners/zoom_events.js'
 
 var views = [
 	{className: "section-content", levels :[
@@ -19,13 +21,24 @@ var views = [
 export class Article extends React.Component{
 	constructor(props){
 		super(props);
-		this.state = {};
+		this.state = { 'zoom' : this.props.zoom };
+		this.ref = React.createRef();
+	}
+
+	componentDidMount() {
+		this.hammer = addZoomEventListeners( this, this.sectionContent );
+	}
+
+	setZoom( zoom ){
+		this.setState( ( prevState, props) =>{
+			return({ 'zoom' : zoom })
+		} );
 	}
 
 	render(){
 		const content = this.props.content;
 		const depth = 0;
-		const zoom = this.props.zoom;		
+		const zoom = this.state.zoom;		
 		const title = content.title;
 		const thisLevelHTML = content.content_HTML;
 		const sectionContent = thisLevelHTML.map(function(element){
@@ -38,7 +51,7 @@ export class Article extends React.Component{
     console.log("subsections", subsections);
 		
 		return (
-			<div className="article-container" style={zoomStyle("article-container", views, depth, zoom)}>
+			<div className="article-container" style={zoomStyle("article-container", views, depth, zoom)} ref={this.ref}>
 				<h1>{title}</h1>
 				<div className="section-content" ref={(div) => {this.sectionContent = div; }} style={zoomStyle("section-content", views, 1, zoom, this.sectionContent)}>
 				{console.log(sectionContent)}

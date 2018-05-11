@@ -15,7 +15,8 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.jsx$/,
-        use: 'react-hot-loader'
+        exclude: /node_modules/,
+        loader: 'react-hot-loader',
       }
     ]
   }

@@ -244,94 +244,20 @@
 	"buffers":
 	[
 		{
-			"file": "src/content/index.js",
+			"file": "src/content/listeners/zoom_events.js",
 			"settings":
 			{
-				"buffer_size": 6763,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/chrome/index.js",
-			"settings":
-			{
-				"buffer_size": 217,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/popup.html",
-			"settings":
-			{
-				"buffer_size": 385,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/content/components/App.jsx",
-			"settings":
-			{
-				"buffer_size": 838,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/content/components/Article.jsx",
-			"settings":
-			{
-				"buffer_size": 1554,
+				"buffer_size": 829,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/content/components/container.js",
-			"settings":
-			{
-				"buffer_size": 1109,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1136,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/content/components/Zoomable.js",
 			"settings":
 			{
-				"buffer_size": 3703,
+				"buffer_size": 3992,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/content/components/parser.js",
-			"settings":
-			{
-				"buffer_size": 925,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/content/style.css",
-			"settings":
-			{
-				"buffer_size": 1240,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.config.common.js",
-			"settings":
-			{
-				"buffer_size": 1816,
 				"line_ending": "Unix"
 			}
 		},
@@ -339,24 +265,8 @@
 			"file": "src/content/components/Subsection.jsx",
 			"settings":
 			{
-				"buffer_size": 3075,
+				"buffer_size": 3484,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/content/models/root.js",
-			"settings":
-			{
-				"buffer_size": 237,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/popup/index.js",
-			"settings":
-			{
-				"buffer_size": 218,
 				"line_ending": "Unix"
 			}
 		}
@@ -404,11 +314,30 @@
 		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src",
 		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content",
 		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/listeners",
 		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/models"
 	],
 	"file_history":
 	[
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components/Article.jsx",
 		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/package.json",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/webpack.config.prod.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/webpack.config.dev.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components/container.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/popup/index.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/models/root.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/webpack.config.common.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/external/hammer.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/style.css",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components/Zoomable.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components/Subsection.jsx",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/.gitignore",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components/ZoomBar.jsx",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/chrome/index.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/index.js",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/public/popup.html",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/src/content/components/App.jsx",
+		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/yarn-error.log",
 		"/C/Users/Isaac Fehr/Documents/wikipedia-semantic-zooming/SZExtension/public/content.html",
 		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/styles/main.css",
 		"/C/Users/Isaac Fehr/Documents/Webstrates tools/StrateComposer/CognitiveCanvas/src/default-style.js",
@@ -517,13 +446,11 @@
 		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab3/static/js/introHCI.js",
 		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab3/static/css/introHCI.css",
 		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/settings.py",
-		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/db.py",
-		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/static/css/introHCI.css",
-		"/C/Users/Isaac Fehr/Google Drive/COGS120/introHCI/lab2/static/index.html"
+		"/C/Users/Isaac Fehr/Google Drive/HCHD_My_Stuff/AntiBiogram/server/db.py"
 	],
 	"find":
 	{
-		"height": 52.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -537,6 +464,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console.log",
 			"map",
 			"s.map",
 			"getNodeP",
@@ -663,8 +591,7 @@
 			"mouseDow",
 			"selectNode",
 			"addlabel",
-			"addLabel",
-			"addlabel"
+			"addLabel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -688,208 +615,29 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/content/index.js",
+					"file": "src/content/listeners/zoom_events.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6763,
+						"buffer_size": 829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								323,
-								323
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/chrome/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								770,
+								770
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/popup.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/content/components/App.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								427,
-								427
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/content/components/Article.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1554,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1252,
-								1252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/content/components/container.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1109,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								864,
-								864
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1056,
-								1056
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -899,139 +647,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 1,
 					"file": "src/content/components/Zoomable.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3703,
+						"buffer_size": 3992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3416,
-								3416
+								2425,
+								2425
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "src/content/components/parser.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 925,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/content/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1240,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								376,
-								376
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "webpack.config.common.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1389,
-								1389
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 2,
 					"file": "src/content/components/Subsection.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3075,
+						"buffer_size": 3484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								3075
+								1149,
+								1149
 							]
 						],
 						"settings":
@@ -1040,66 +698,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1259.0,
+						"translation.y": 1085.33333333,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "src/content/models/root.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "src/popup/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -1111,7 +713,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -1144,7 +746,7 @@
 	"project": "SZExtension.sublime-project",
 	"replace":
 	{
-		"height": 53.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1158,16 +760,16 @@
 	},
 	"select_project":
 	{
-		"height": 625.0,
+		"height": 619.333333333,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"C:\\Users\\Isaac Fehr\\Documents\\wikipedia-semantic-zooming\\SemanticZooming\\WikipediaSemanticZooming.sublime-project"
+				"C:\\Users\\Isaac Fehr\\Documents\\Webstrates tools\\StrateComposer\\CognitiveCanvas\\CognitiveCanvas.sublime-project"
 			]
 		],
-		"width": 475.0
+		"width": 472.666666667
 	},
 	"select_symbol":
 	{
